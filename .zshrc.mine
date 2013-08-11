@@ -1,0 +1,7 @@
+export EDITOR="vim"
+
+export PATH=/opt/apache-maven-3/bin:/opt/apache-ant-1.9.2/bin/:/home/hnakada/bin:$PATH
+
+export MAVEN_HOME=/opt/apache-maven-3/
+
+source $HOME/.rvm/scripts/rvm
