@@ -1,7 +1,16 @@
 export EDITOR="vim"
 
-export PATH=/opt/apache-maven-3/bin:/opt/apache-ant-1.9.2/bin/:/home/hnakada/bin:$PATH
-
 export MAVEN_HOME=/opt/apache-maven-3/
+export ANDROID_HOME=~/android-sdks
 
-source $HOME/.rvm/scripts/rvm
+PATH=$MAVEN_HOME/bin:/opt/apache-ant-1.9.2/bin:$PATH
+PATH=/usr/local/bin:$HOME/bin:$PATH
+PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
+export PATH
+
+export DOCKER_HOST=tcp://192.168.59.103:2375
+
+alias alt-java='source ~/program/alternative-java-for-mac/alternative-java.sh'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias chrome='open -a  /Applications/Google\ Chrome.app/'
+alias irb=pry

@@ -8,21 +8,19 @@ endif
 
 " originalrepos on github
 NeoBundle 'Shougo/neobundle.vim'
-
-NeoBundle 'Shougo/vimproc'
-NeoBundle 'git://github.com/mattn/zencoding-vim.git'
-NeoBundle 'derekwyatt/vim-scala.git'
-NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'mattn/zencoding-vim'
+NeoBundle 'taichouchou2/vim-javascript'
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'vim-ruby/vim-ruby'
 
 filetype indent plugin on
 
 "other setting
 syntax enable
 set number
-set tabstop=2
+set tabstop=2 shiftwidth=2 softtabstop=2 
 set hidden
 set showmatch
 set expandtab
 set incsearch
 set nocompatible
-
