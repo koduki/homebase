@@ -8,7 +8,7 @@ PATH=/usr/local/bin:$HOME/bin:$PATH
 PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 export PATH
 
-export DOCKER_HOST=tcp://192.168.59.103:2375
+#export DOCKER_HOST=tcp://:2375
 
 alias alt-java='source ~/program/alternative-java-for-mac/alternative-java.sh'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
