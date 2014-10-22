@@ -14,3 +14,5 @@ alias alt-java='source ~/program/alternative-java-for-mac/alternative-java.sh'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias chrome='open -a  /Applications/Google\ Chrome.app/'
 alias irb=pry
+
+source ~/.zshrc.linux
